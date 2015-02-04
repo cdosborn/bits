@@ -2,6 +2,9 @@
 
 bits is a little experiment for making bit manipulation intuitive. It's a really easy way to check that some of your bit shiftery is correct. It came out of the discovery that you can call methods on numbers in JavaScript (wat?).
 
+    >(0xa0a0).bits()
+    '1010000010100000'
+    
     > (0xa0a0).shift('>', 2)
               .drop(6, 12)
               .crop(4, 8)
